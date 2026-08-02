@@ -13,7 +13,7 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' >
 # -------------------------------------------------------------------
 # 2. (可选) 引入 OpenClash 源码
 # -------------------------------------------------------------------
-# echo 'src-git openclash https://github.com/vernesong/OpenClash.git;master' >> feeds.conf.default
+echo 'src-git openclash https://github.com/vernesong/OpenClash.git;master' >> feeds.conf.default
 
 # -------------------------------------------------------------------
 # 3. (可选) 取消默认 feeds 注释或替换镜像
