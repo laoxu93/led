@@ -7,8 +7,8 @@
 # -------------------------------------------------------------------
 # 1. 引入 PassWall 及其完整的核心依赖包仓库 (解决 dependency 缺失报错)
 # -------------------------------------------------------------------
-echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main' >> feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' >> feeds.conf.default
+echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main' >> feeds.conf.default
+echo 'src-git passwall https://github.com/Openwrt-Passwall/openwrt-passwall.git;main' >> feeds.conf.default
 
 # -------------------------------------------------------------------
 # 2. (可选) 引入 OpenClash 源码
