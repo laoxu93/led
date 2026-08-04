@@ -19,3 +19,8 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git;master' >> fe
 # 3. (可选) 取消默认 feeds 注释或替换镜像
 # -------------------------------------------------------------------
 # sed -i 's/^#\(.*telephony\)/\1/' feeds.conf.default
+# -------------------------------------------------------------------
+# 4. 引入 AdGuardHome 与 Lucky 软件源（供 .config 中 luci-app-adguardhome / luci-app-lucky 使用）
+# -------------------------------------------------------------------
+echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome.git;master' >> feeds.conf.default
+echo 'src-git lucky https://github.com/gdy666/luci-app-lucky.git;main' >> feeds.conf.default
